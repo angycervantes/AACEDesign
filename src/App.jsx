@@ -5,17 +5,19 @@ import Portafolio from './pages/Portafolio'
 import Proyecto from './components/Proyecto'
 import SingleProyect from './pages/SingleProyect'
 import CarrotProyect from './pages/CarrotProyect'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
     
+    <Header />
     
-    {/* <Home />
-    <AboutMe /> */}
+    <Home />
+    <AboutMe />
     {/* <SingleProyect /> */}
-    <CarrotProyect />
+    {/* <CarrotProyect /> */}
     
     <Portafolio />
 

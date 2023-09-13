@@ -26,12 +26,12 @@ const CarrotProyect = () => {
               </div>
 
           </section>
-          <div className='has-text-centered'>
+          <div className='has-text-centered' g-6>
               <div className=''>
-                  <img src={imgCarrot2} />
+                  <img className='shadow' src={imgCarrot2} />
               </div>
               <div className=''>
-                  <img src={imgCarrot3} />
+                  <img className='shadow' src={imgCarrot3} />
               </div>
           </div>
           <section className='has-background-light p-6'>

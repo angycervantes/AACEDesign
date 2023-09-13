@@ -1,5 +1,5 @@
 
-import companyLogo from '../assets/aace.svg';
+import AACELogo from '../assets/Logo/aace.svg';
 import AboutMe from './AboutMe';
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
 
         <div className='container has-text-centered hommie'>
           <div className='child'>
-            <img className='is-inline-block' src={companyLogo} style={{ maxHeight: '120px' }} />
+            <img className='is-inline-block' src={AACELogo} style={{ maxHeight: '120px' }} />
             <h1 className="is-size-2 is-text-bold"> Holi mundo </h1>
 
             <input class="input " type="text" placeholder="Ingresa tu nombre"></input>
