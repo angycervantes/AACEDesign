@@ -4,6 +4,7 @@ import AboutMe from './pages/AboutMe'
 import Portafolio from './pages/Portafolio'
 import Proyecto from './components/Proyecto'
 import SingleProyect from './pages/SingleProyect'
+import CarrotProyect from './pages/CarrotProyect'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
     
     {/* <Home />
     <AboutMe /> */}
-    <SingleProyect />
+    {/* <SingleProyect /> */}
+    <CarrotProyect />
     
     <Portafolio />
 

@@ -12,7 +12,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
   color: #323E48;
-  background: #F7F7F8;
 }
 
 .home{
@@ -57,17 +56,37 @@ body {
 }
 
 .rombo3 {
-  width: 944.585px;
-  height: 1054.642px;
-  background-color: #F0F1F2;
+  width: 1166.858px;
+  height: 1112.473px;
   transform: rotate(-51.76deg);
+  background-color: #F0F1F2;
   flex-shrink: 0;
   border-radius: 62px;
   position: absolute;
-  top: -250px;
-  left: -200px;
+  top: -100px;
+  left: -250px;
 }
 
+
+.rombo4 { 
+  width: 1166.858px;
+  height: 1112.473px;
+  transform: rotate(-51.76deg);
+  background-color: #323E48;
+  flex-shrink: 0;
+  border-radius: 62px;
+  position: absolute;
+  top: -200px;
+  left: 950px;
+}
+
+.bgimag {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  z-index: 0;
+
+}
 background-image {
   width: 944.585px;
   height: 1054.642px;
