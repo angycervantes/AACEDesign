@@ -6,7 +6,7 @@ import Portafolio from './Portafolio';
 const Home = () => {
   return (
     <>
-      <section className='section home'>
+      {/* <section className='section home' id='holi'>
         <div className='container has-text-centered hommie'>
           <div className='child'>
             <img className='is-inline-block' src={AACELogo} style={{ maxHeight: '120px' }} />
@@ -16,7 +16,7 @@ const Home = () => {
             <button className='button is-medium is-primary'> Enter </button>
           </div>
         </div>
-      </section>
+      </section> */}
       <AboutMe />
       <Portafolio />
     </>

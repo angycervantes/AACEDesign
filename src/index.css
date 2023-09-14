@@ -15,6 +15,14 @@ body {
   color: #323E48;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
 .home{
   display: grid;
   height: 100vh;
@@ -35,11 +43,12 @@ body {
 
        
 .shadow {
-  box-shadow: 10px 10px 5px 5px rgba(124, 136, 145, 0.12);
+  box-shadow: 5px 5px 5px rgba(124, 136, 145, 0.12);
   border-radius: 12px;
 }
 
 .rombo3 { 
+    display: flex;
     width: 1166.858px;
     height: 1112.473px;
     transform: rotate(-51.76deg);

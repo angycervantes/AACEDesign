@@ -1,26 +1,25 @@
 
-import AACELogo from '../assets/Logo/AACE_isotipo.svg';
-import { Link} from 'react-router-dom'
+import AACELogo from '../assets/Logo/AACE_isotipo.svg'
 
 const Header = () => {
   return (
   
-   <nav className='navbar has-shadow is-white'>
+   <nav className='navbar sticky has-shadow is-white'>
     <div className='navbar-brand'>
-      <Link to='/' className='navbar-item'>
-        <img src={AACELogo} alt='site logo' style={{maxHeight: '48px'}} className='py-2 px-2'/>
-      </Link>
+      <a href='#meAbout' className='navbar-item'>
+        <img src={AACELogo} alt='site logo' style={{maxHeight: '56px'}} className='py-2 px-2'/>
+      </a>
       <a className='navbar-burger'>
         <span></span>
         <span></span>
         <span></span>
       </a>
     </div>
-    <div className='navbar-menu' id = 'nav-links'>
+    <div className='navbar-menu' id='nav-links'>
       <div className="navbar-end">
-        {/* <a href='meAbout' className="navbar-item">AboutMe</a> */}
-        <Link to='/aboutMe' className="navbar-item">About Me</Link>
-        <Link to='/portafolio' className="navbar-item">Portafolio</Link>
+        <a href='/#meAbout' className="navbar-item">About Me</a>
+        <a href='/#portafolio' className="navbar-item">Portafolio</a>
+        <a href='https://www.linkedin.com/in/aacedesign/' className="navbar-item">LinkedIn</a>
       </div>
     </div>
    </nav>

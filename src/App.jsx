@@ -1,12 +1,19 @@
 import '../src/app.scss'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
 import Portafolio from './pages/Portafolio'
+
 import SociosArrenda from './pages/portafolio/SociosArrenda'
 import CarrotProyect from './pages/portafolio/CarrotProyect'
-import Header from './components/Header'
 import Inpersona from './pages/portafolio/Inpersona'
+
+import ScrollToTop from './pages/ScrollToTop'
+import Animaciones from './components/Animaciones'
+
 
 
 function App() {
@@ -14,6 +21,8 @@ function App() {
   return (
     <>
       <Router>
+        <Animaciones />
+        <ScrollToTop />
         <Header />
         <div>
         <Routes>
@@ -26,6 +35,7 @@ function App() {
 
           </Routes>
         </div>
+        <Footer />
       </Router>
     </>
   )

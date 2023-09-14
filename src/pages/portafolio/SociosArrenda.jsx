@@ -8,7 +8,7 @@ const SociosArrenda = () => {
   return (
     <>
       <section className='home'>
-        <div className='rombo3 atras'></div>
+        {/* <div className='rombo3 atras'></div> */}
 
         <div className='columns is-gapless is-vcentered'>
           <div className='column ml-6 has-text-justified container'>
