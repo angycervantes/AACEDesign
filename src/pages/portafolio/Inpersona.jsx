@@ -1,11 +1,11 @@
 
 
-
+import inpersonaPage from '../../assets/provicional/inpersona.png'
 
 const Inpersona = () => {
   return (
     <>
-    <h1>Inpersona</h1>
+    <img className='mt-6' src={inpersonaPage}/>
     </>
   )
 }

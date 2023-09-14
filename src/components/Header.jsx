@@ -9,11 +9,11 @@ const Header = () => {
       <a href='#meAbout' className='navbar-item'>
         <img src={AACELogo} alt='site logo' style={{maxHeight: '56px'}} className='py-2 px-2'/>
       </a>
-      <a className='navbar-burger'>
+      {/* <a className='navbar-burger'>
         <span></span>
         <span></span>
         <span></span>
-      </a>
+      </a> */}
     </div>
     <div className='navbar-menu' id='nav-links'>
       <div className="navbar-end">
