@@ -12,7 +12,6 @@ import CarrotProyect from './pages/portafolio/CarrotProyect'
 import Inpersona from './pages/portafolio/Inpersona'
 
 import ScrollToTop from './pages/ScrollToTop'
-import Animaciones from './components/Animaciones'
 
 
 
@@ -21,7 +20,6 @@ function App() {
   return (
     <>
       <Router>
-        <Animaciones />
         <ScrollToTop />
         <Header />
         <div>
