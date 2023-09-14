@@ -2,7 +2,7 @@ import companyLogo from '../assets/Logo/aace.svg';
 import picAngy from '../assets/picAngy.png'
 const AboutMe = () => {
   return (
-    <section className='section home'>
+    <section id='meAbout' className='section home'>
 
       <div className='container has-text-centered hommie'>
         <div className='child' style={{ maxWidth: '850px' }}>

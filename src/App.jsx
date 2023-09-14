@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
 import Portafolio from './pages/Portafolio'
-import Proyecto from './components/Proyecto'
-import SingleProyect from './pages/SingleProyect'
-import CarrotProyect from './pages/CarrotProyect'
+import SociosArrenda from './pages/portafolio/SociosArrenda'
+import CarrotProyect from './pages/portafolio/CarrotProyect'
 import Header from './components/Header'
+import Inpersona from './pages/portafolio/Inpersona'
 
 
 function App() {
@@ -15,13 +15,14 @@ function App() {
     <>
       <Router>
         <Header />
-        <div className='container'>
+        <div>
         <Routes>
             <Route  path='/' element={<Home />} />
             <Route  path='/aboutMe' element={<AboutMe />} />
-            <Route path='/portafolio' element={<Portafolio />} />
-            <Route path='/proyecto1' element={<SingleProyect />} />
-            <Route path='/proyecto2' element={<CarrotProyect />} />
+            <Route path='/portafolio' element= {<Portafolio />} />
+            <Route path='/carrot' element={<CarrotProyect />} />
+            <Route path='/inpersona' element={<Inpersona />} />
+            <Route path='/sociosA' element= {<SociosArrenda />} />
 
           </Routes>
         </div>

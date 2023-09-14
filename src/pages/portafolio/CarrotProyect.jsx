@@ -1,14 +1,13 @@
-import imgCarrot1 from '../assets/img_portafolio/Carrot/imgCarrot1.png'
-import imgCarrot2 from '../assets/img_portafolio/Carrot/imgCarrot2.png'
-import imgCarrot3 from '../assets/img_portafolio/Carrot/imgCarrot3.png'
-import imgCarrot4 from '../assets/img_portafolio/Carrot/imgCarrot4.png'
-import imgCarrot5 from '../assets/img_portafolio/Carrot/imgCarrot5.png'
+import imgCarrot1 from '../../assets/img_portafolio/Carrot/imgCarrot1.png'
+import imgCarrot2 from '../../assets/img_portafolio/Carrot/imgCarrot2.png'
+import imgCarrot3 from '../../assets/img_portafolio/Carrot/imgCarrot3.png'
+import imgCarrot4 from '../../assets/img_portafolio/Carrot/imgCarrot4.png'
 
 const CarrotProyect = () => {
   return ( 
       <>
           <section className='home'>
-              <div className='rombo4 atras'></div>
+              {/* <div className='rombo4 atras'></div> */}
 
               <div className='columns is-gapless is-vcentered'>
                   <div className='column is-half ml-6 has-text-justified container'>
@@ -39,7 +38,7 @@ const CarrotProyect = () => {
                   <div className='colum is-three-quarters'>
                       <img src={imgCarrot4} />
                   </div>
-                  <div className='column mx-6'>
+                  <div className='column is-one-quarter is-end mx-6'>
                       <p className="is-size-3"> Socios Arrenda</p>
                       <ul>
                           <li>Benchmarking</li>

@@ -18,7 +18,8 @@ const Header = () => {
     </div>
     <div className='navbar-menu' id = 'nav-links'>
       <div className="navbar-end">
-        <Link to='/aboutMe' className="navbar-item">AboutMe</Link>
+        {/* <a href='meAbout' className="navbar-item">AboutMe</a> */}
+        <Link to='/aboutMe' className="navbar-item">About Me</Link>
         <Link to='/portafolio' className="navbar-item">Portafolio</Link>
       </div>
     </div>

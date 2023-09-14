@@ -1,13 +1,12 @@
 
 import AACELogo from '../assets/Logo/aace.svg';
 import AboutMe from './AboutMe';
+import Portafolio from './Portafolio';
 
 const Home = () => {
   return (
     <>
-
       <section className='section home'>
-
         <div className='container has-text-centered hommie'>
           <div className='child'>
             <img className='is-inline-block' src={AACELogo} style={{ maxHeight: '120px' }} />
@@ -18,6 +17,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <AboutMe />
+      <Portafolio />
     </>
   )
 }

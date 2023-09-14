@@ -32,33 +32,29 @@ body {
   align-items: center;
   gap: 32px;
 }
-.cuadrado {
-  width: 800px; 
-  height: 800px; 
-  background: #F0F1F2;
-  border-radius: 62px;
-}
 
        
 .shadow {
-  box-shadow: 10px 10px 5px rgba(124, 136, 145, 0.12);
+  box-shadow: 10px 10px 5px 5px rgba(124, 136, 145, 0.12);
   border-radius: 12px;
 }
 
-.rombo3 {
-  width: 1166.858px;
-  height: 1112.473px;
-  transform: rotate(-51.76deg);
-  background-color: #F0F1F2;
-  flex-shrink: 0;
-  border-radius: 62px;
-  position: absolute;
-  top: -100px;
-  left: -250px;
+.rombo3 { 
+    width: 1166.858px;
+    height: 1112.473px;
+    transform: rotate(-51.76deg);
+    background-color: #F0F1F2;
+    flex-shrink: 0;
+    border-radius: 62px;
+    position: absolute;
+    top: -100px;
+    left: -250px;
+  
 }
 
 
 .rombo4 { 
+  display: flex;
   width: 1166.858px;
   height: 1112.473px;
   transform: rotate(-51.76deg);
@@ -91,6 +87,14 @@ background-image {
 }
 .atras {
   z-index: -1;
+}
+
+.is-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 18px;
 }
 
 @keyframes show {
