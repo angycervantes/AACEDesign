@@ -13,10 +13,12 @@ const AboutMe = () => {
             <img class="is-rounded" src={picAngy} />
           </figure>
           <h1 className='is-size-3'>Hi, I'm Angelica Cervantes! ✨</h1>
-          <p className="text is-text-bold is-size-5"> My approach as a Product and UX/UI designer spans from ideation to concept generation, always considering the business needs and user experience.
-          <br></br> My ability to empathize and communicate effectively with multidisciplinary teams has allowed me to understand and respect the processes of each area, creating seamless and efficient workflows for the products I develop. </p>
+          <p className="text is-text-bold is-size-5"> Mi enfoque como diseñador de Producto
+          y UX/UI abarca desde la ideación hasta la generación de conceptos, considerando siempre las necesidades del negocio y la experiencia del usuario.
+          <br></br> Mi capacidad para empatizar y comunicarme efectivamente con equipos multidisciplinarios me ha permitido comprender y respetar los procesos
+          de cada área, creando flujos de trabajo fluidos y eficientes para los productos que desarrollo. </p>
           <figure class=" columns image is-20x20">
-            <a href='https://www.credly.com/badges/578aa145-8389-436f-86eb-be78e392d2fe?source=linked_in_profile'><img class="column" src={bedu} style={{ maxWidth: '80px' }} /></a>
+            <a href='https://www.credly.com/badges/578aa145-8389-436f-86eb-be78e392d2fe?source=linked_in_profile target="_blank"'><img class="column" src={bedu} style={{ maxWidth: '80px' }} /></a>
             <img class="column" src={devf} style={{ maxWidth: '80px' }} />
           </figure>
         </div>

@@ -9,9 +9,9 @@ const Footer = () => {
     <p>
       <strong>AACE DESIGN</strong>
       <p>by Angélica Cervantes </p>
-      <a href='https://www.behance.net/aacedesign'><img src={be} alt='site logo' style={{maxHeight: '56px'}} className='py-2 px-2'/></a>
-      <a href='https://www.linkedin.com/in/aacedesign'><img src={linkedin} alt='site logo' style={{maxHeight: '56px'}} className='py-2 px-2'/></a>
-      <a href='https://vimeo.com/angelicacervantes'><img src={vimeo} alt='site logo' style={{maxHeight: '56px'}} className='py-2 px-2'/></a>
+      <a href='https://www.behance.net/aacedesign' target="_blank"><img src={be} alt='site logo' style={{maxHeight: '56px'}} className='py-2 px-2'/></a>
+      <a href='https://www.linkedin.com/in/aacedesign target="_blank"'><img src={linkedin} alt='site logo' style={{maxHeight: '56px'}} className='py-2 px-2'/></a>
+      <a href='https://vimeo.com/angelicacervantes' target="_blank"><img src={vimeo} alt='site logo' style={{maxHeight: '56px'}} className='py-2 px-2'/></a>
       <p>Mexico City</p>
     </p>
   </div>

@@ -14,12 +14,12 @@ import Inpersona from './pages/portafolio/Inpersona'
 import ScrollToTop from './pages/ScrollToTop'
 
 
-
 function App() {
 
   return (
     <>
       <Router>
+      
         <ScrollToTop />
         <Header />
         <div>

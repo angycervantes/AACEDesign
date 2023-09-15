@@ -17,7 +17,7 @@ import definirA from '../../assets/img_portafolio/Carrot/secciones/definirA.svg'
 const CarrotProyect = () => {
     return (
         <>
-            <section className='home'>
+            <section className='home has-background-white-bis'>
 
                 <div className='columns is-gapless is-vcentered'>
                     <div className='column is-two-fifths ml-6 has-text-justified container'>
@@ -50,58 +50,84 @@ const CarrotProyect = () => {
                 </div>
 
             </section>
+
             <section className='has-text-centered home'>
                 <div className=''>
                     <img className='shadow' src={imgCarrot2} />
                 </div>
             </section>
+
             <section className='home has-background-white-bis'>
-                <div className='containerBox2 '>
-                <div className='box2'>
-                <img className='' src={foco} />
-                    <h3 is-size-4> PROBLEMATICA</h3>
-                    <p> Nuestro Admin dashboard es complicado de utilizar y tiene deficiencias de información que los usuarios funcionales ocupan en su día.
-                        Al momento de su diseño inicial, sólo se tenía contemplado un tipo de usuario, sin embargo, las necesidades operativas van mucho más allá.</p>
+                <div className=' container'>
+                    <div className='columns  mt-5 is-3 is-variable'>
+                        <div className='column'>
+                        <div className="card">
+                            <div className="card-content">
+                                <div className="content">
+                                    <img className='' src={foco} />
+                                    <h4> PROBLEMATICA</h4>
+                                    <p ckas> Nuestro Admin dashboard es complicado de utilizar y tiene deficiencias de información que los usuarios funcionales ocupan en su día.
+                                        Al momento de su diseño inicial, sólo se tenía contemplado un tipo de usuario, sin embargo, las necesidades operativas van mucho más allá.</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className='column'>
+                        <div className="card">
+                            <div className="card-content">
+                                <div className="content">
+                                    <img className='' src={foco} />
+                                    <h4> OBJETIVOS</h4>
+                                    <p> Centralizar información relevante de cada expediente de cada usuario registrado
+                                        Visibilidad del avance en el producto / funnel
+                                        Proporcionar estatus más claros
+                                        Visibilidad de Base de datos (qué hay, de manera human readable)
+                                        Manejo de aprobaciones y acciones de aprobación
+                                        Reportes de LINQ</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className='column'>
+                        <div className="card">
+                            <div className="card-content">
+                                <div className="content">
+                                    <img className='' src={foco} />
+                                    <h4> SOLUCIÓN</h4>
+                                    <p> Un sistema que centralice los datos
+                                        de los clientes y facilite varias etapas de análisis de riesgos:
+                                        registro de usuarios, KYC, revisión de documentos, análisis de crédito,
+                                        aprobación, firma de contratos y desembolso.</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-                <div className='box2 column'>
-                <img className='' src={foco} />
-                    <h3 is-size-4> OBJETIVOS</h3>
-                    <p> Centralizar información relevante de cada expediente de cada usuario registrado
-Visibilidad del avance en el producto / funnel
-Proporcionar estatus más claros
-Visibilidad de Base de datos (qué hay, de manera human readable)
-Manejo de aprobaciones y acciones de aprobación
-Reportes de LINQ</p>
-                </div>
-                <div className='box2 column'>
-                <img className='' src={foco} />
-                    <h3 is-size-4> SOLUCIÓN</h3>
-                    <p> Un sistema que centralice los datos de los clientes y facilite varias etapas de análisis de riesgos: registro de usuarios, KYC, revisión de documentos, análisis de crédito, aprobación, firma de contratos y desembolso.</p>
-                </div>
-                </div>
-            </section>
-            <section className='has-text-centered container home'>
-                <div className=''>
-            <img className='' src={person} style={{maxHeight: '56px'}}/>
-            <p> Identificar los tipos de usuarios del Admin Dashboard, motivaciones, necesidades principales y pain points.</p>
-            <p className='has-text-weight-semibold'>Workshops / Entrevistas / Research </p>
-            <div className=''> </div>
-            <img className='mt-6' src={usersP}/>
-            
-            </div>
             </section>
 
             <section className='has-text-centered container home'>
                 <div className=''>
-            <img className='' src={definirA} style={{maxHeight: '56px'}}/>
-            <p> Identificar los tipos de usuarios del Admin Dashboard, motivaciones, necesidades principales y pain points.</p>
-            <p className='has-text-weight-semibold'>Workshops / Entrevistas / Research </p>
-            <div className=''> </div>
-            <img className='mt-6' src={definir}/>
-            
-            </div>
+                    <img className='' src={person} style={{ maxHeight: '56px' }} />
+                    <p> Identificar los tipos de usuarios del Admin Dashboard, motivaciones, necesidades principales y pain points.</p>
+                    <p className='has-text-weight-semibold'>Workshops / Entrevistas / Research </p>
+                    <div className=''> </div>
+                    <img className='mt-6' src={usersP} />
+
+                </div>
             </section>
-            
+
+            <section className='has-text-centered container home'>
+                <div className=''>
+                    <img className='' src={definirA} style={{ maxHeight: '56px' }} />
+                    <p> Identificar los tipos de usuarios del Admin Dashboard, motivaciones, necesidades principales y pain points.</p>
+                    <p className='has-text-weight-semibold'>Workshops / Entrevistas / Research </p>
+                    <div className=''> </div>
+                    <img className='mt-6' src={definir} />
+
+                </div>
+            </section>
+
             <section className='has-text-centered home'>
                 <div className=''>
                     <img className='shadow' src={imgCarrot3} />
