@@ -1,4 +1,4 @@
-import behance from '../assets/logoRef/be.svg'
+import behance from '../assets/logoRef/Be.svg'
 import linkedin from '../assets/logoRef/in.svg'
 import vimeo from '../assets/logoRef/v.svg'
 
