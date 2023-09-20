@@ -196,7 +196,7 @@ const CarrotProyect = () => {
             </section>
              */}
             <section className='has-text-centered'>
-            <img className='has-text-centered' src={carrotCompleto} />
+            <img className='has-text-centered' src={carrotCompleto} style={{maxWidth: '1280'}} />
             </section>
 
         </>

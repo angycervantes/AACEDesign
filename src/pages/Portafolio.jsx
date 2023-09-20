@@ -13,13 +13,13 @@ const Portafolio = () => {
       <div className="columns  px-6 desktop-mb-6">
         <div className="column"></div>
         <div className="column"></div>
-        <Link to='/carrot' className='column is-two-fifths'><img className='shadow' src={carrotPreview} /></Link>
+        <Link to='/carrot' className='column is-two-fifths imgA'><img className='shadow' src={carrotPreview} /></Link>
         <div className="column"></div>
       </div>
       
       <div className="columns px-6 desktop-mb-6">
         <div className="column"></div>
-        <Link to='/sociosA' className='column is-two-fifths'> <img className='shadow' src={sociosPreview} /></Link>
+        <Link to='/sociosA' className='column is-two-fifths imgA'> <img className='shadow' src={sociosPreview} /></Link>
         <div className="column"></div>
         <div className="column"></div>
       </div>
@@ -27,13 +27,13 @@ const Portafolio = () => {
       <div className="columns  px-6 mb-6">
         <div className="column"></div>
         <div className="column"></div>
-        <Link to='/inpersona' className='column is-two-fifths'><img className='shadow' src={inpersonaPreview} /></Link>
+        <Link to='/inpersona' className='column is-two-fifths imgA'><img className='shadow' src={inpersonaPreview} /></Link>
         <div className="column"></div>
       </div>
 
       <div className="columns px-6 mb-6">
         <div className="column"></div>
-        <Link to='/kyc' className='column is-two-fifths'> <img className='shadow' src={preview4} /></Link>
+        <Link to='/kyc' className='column is-two-fifths imgA'> <img className='shadow' src={preview4} /></Link>
         <div className="column"></div>
         <div className="column"></div>
       </div>

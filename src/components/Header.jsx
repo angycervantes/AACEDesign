@@ -17,12 +17,7 @@ const Header = () => {
           <span></span>
         </a>
       </div>
-      <button className="hamburger hamburger--collapse"  onClick={Animaciones} type="button">
-        <span className="hamburger-box">
-          <span className="hamburger-inner"></span>
-        </span>
-        <span className="hamburger-label">Menu</span>
-      </button>
+  
       <div className='navbar-menu' id='nav-links'>
         <div className="navbar-end">
           <a href='/#meAbout' className="navbar-item">About Me</a>

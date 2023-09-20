@@ -2,13 +2,18 @@ import socios_1 from '../../assets/img_portafolio/SociosArrenda/socios_arrenda_1
 import socios_2 from '../../assets/img_portafolio/SociosArrenda/socios_arrenda_2.png'
 import socios_3 from '../../assets/img_portafolio/SociosArrenda/socios_arrenda_3.png'
 import socios_4 from '../../assets/img_portafolio/SociosArrenda/socios_arrenda_4.png'
-
+import sociosA from '../../assets/provicional/SociosArrenda.png'
 
 const SociosArrenda = () => {
   return (
     <>
-      <section className='home'>
-        {/* <div className='rombo3 atras'></div> */}
+      <section className='has-text-centered'>
+        <img className='has-text-centered' src={sociosA} style={{ maxWidth: '1280' }} />
+      </section>
+      {/* <section className='home'>
+        <div className='rombo3 atras'></div>
+
+        <iframe style={{ maxHeight: '450' }} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ft7lWTixm5JZRWpeBslVXVY%2FWebsite-3.0%3Fpage-id%3D325%253A606%26type%3Ddesign%26node-id%3D1720-1940%26viewport%3D-599%252C559%252C0.07%26t%3Dho8ka62IOTg3T5Ne-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D328%253A1144%26mode%3Ddesign" allowfullscreen></iframe>
 
         <div className='columns is-gapless is-vcentered'>
           <div className='column ml-6 has-text-justified container'>
@@ -24,8 +29,8 @@ const SociosArrenda = () => {
             <img className='loquetuquieras' src={socios_1} />
           </div>
         </div>
-      </section>
-      <div className='columns'>
+      </section> */}
+      {/* <div className='columns'>
         <div className='column'></div>
         <div className='column is-two-fifths'>
           <img src={socios_2} />
@@ -34,10 +39,10 @@ const SociosArrenda = () => {
           <img src={socios_3} />
         </div>
         <div className='column'></div>
-      </div>
-      <section className='has-background-light p-6'>
+      </div> */}
+      {/* <section className='has-background-light p-6'>
         <div className='columns is-gapless'>
-          
+
           <div className='colum is-three-quarters'>
             <img src={socios_4} />
           </div>
@@ -52,7 +57,7 @@ const SociosArrenda = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
