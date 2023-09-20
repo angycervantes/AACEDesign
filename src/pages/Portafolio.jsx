@@ -8,15 +8,16 @@ import { Link } from 'react-router-dom';
 const Portafolio = () => {
   return (
     <section id='portafolio'>
-      
-      <div className="columns  px-6 mb-6">
+      <h2 className='has-text-centered title mb-6'> PORTAFOLIO</h2>
+       
+      <div className="columns  px-6 desktop-mb-6">
         <div className="column"></div>
         <div className="column"></div>
         <Link to='/carrot' className='column is-two-fifths'><img className='shadow' src={carrotPreview} /></Link>
         <div className="column"></div>
       </div>
       
-      <div className="columns px-6 mb-6">
+      <div className="columns px-6 desktop-mb-6">
         <div className="column"></div>
         <Link to='/sociosA' className='column is-two-fifths'> <img className='shadow' src={sociosPreview} /></Link>
         <div className="column"></div>
