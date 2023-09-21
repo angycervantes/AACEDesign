@@ -3,6 +3,7 @@ import inpersonaPreview from '../assets/img_portafolio/Previews/preview_1.png'
 import sociosPreview from '../assets/img_portafolio/Previews/preview_2.png'
 import carrotPreview from '../assets/img_portafolio/Previews/preview_3.png'
 import preview4 from '../assets/img_portafolio/Previews/preview_4.png'
+import preview6 from '../assets/img_portafolio/Previews/preview_6.png'
 import { Link } from 'react-router-dom';
 
 const Portafolio = () => {
@@ -35,6 +36,13 @@ const Portafolio = () => {
         <div className="column"></div>
         <Link to='/kyc' className='column is-two-fifths imgA'> <img className='shadow' src={preview4} /></Link>
         <div className="column"></div>
+        <div className="column"></div>
+      </div>
+      
+      <div className="columns  px-6 mb-6">
+        <div className="column"></div>
+        <div className="column"></div>
+        <Link to='/adelantaA' className='column is-two-fifths imgA'><img className='shadow' src={preview6} /></Link>
         <div className="column"></div>
       </div>
     </section>
