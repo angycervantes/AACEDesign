@@ -10,11 +10,11 @@
 // })
 //   }
 
-const burgerIcon = document.querySelector('#burger');
-const navbarMenu = document.querySelector('#nav-links');
-
 export default function Animaciones() {
-    navbarMenu.classList.toggle('is-active');
+    const burgerIcon = document.querySelector('#burger');
+    const navbarMenu = document.querySelector('#nav-links');
+    navbarMenu.classList.toggle('is-active')
+    return;
 }
 
 

@@ -19,43 +19,47 @@ import definirA from '../../assets/img_portafolio/Carrot/secciones/definirA.svg'
 const CarrotProyect = () => {
     return (
         <>
-            {/* <section className='home has-background-white-bis'>
+            <section className='main with-rombo hero is-fullwidth-with-navbar'>
+                <div className='hero-body'>
+                    <div className='columns is-gapless is-vcentered'>
+                        <div className='column is-two-fifths has-text-justified container'>
+                            <div className='main-content'>
+                                <h1 className="title is-2 is-uppercase">Admin System</h1>
+                                <p className="is-size-5"> Carrot, el sistema centraliza los datos de los clientes
+                                    y facilita varias etapas de análisis de riesgos: registro de usuarios, KYC,
+                                    revisión de documentos, análisis de crédito, aprobación, firma de contratos y desembolso. </p>
 
-                <div className='columns is-gapless is-vcentered'>
-                    <div className='column is-two-fifths ml-6 has-text-justified container'>
-                        <h1 className="title is-2 is-uppercase">Admin System</h1>
-                        <p className="is-size-5"> Carrot, el sistema centraliza los datos de los clientes
-                            y facilita varias etapas de análisis de riesgos: registro de usuarios, KYC,
-                            revisión de documentos, análisis de crédito, aprobación, firma de contratos y desembolso. </p>
-
-                        <p className='is-size-5 has-text-weight-medium mt-4'>End to end Project Design Thinking</p>
-                        <p className='linea'> </p>
-                        <ul>
-                            <li>User research</li>
-                            <li>User Flow </li>
-                            <li>Wireframing</li>
-                            <li>Prototyping</li>
-                            <li>Atomic UI design</li>
-                            <li>Usability testing  (SUS)</li>
-                            <li>Handoff to the development team</li>
-                        </ul>
-                        <div className='mt-4'>
-                            <img className='' src={figma} />
-                            <img className='' src={miro} />
-                            <img className='' src={jira} />
-                            <img className='' src={confluence} />
+                                <p className='is-size-5 has-text-weight-medium mt-4'>End to end Project Design Thinking</p>
+                                <p className='linea'> </p>
+                                <ul>
+                                    <li>User research</li>
+                                    <li>User Flow </li>
+                                    <li>Wireframing</li>
+                                    <li>Prototyping</li>
+                                    <li>Atomic UI design</li>
+                                    <li>Usability testing  (SUS)</li>
+                                    <li>Handoff to the development team</li>
+                                </ul>
+                                <div className='mt-4'>
+                                    <img className='' src={figma} />
+                                    <img className='' src={miro} />
+                                    <img className='' src={jira} />
+                                    <img className='' src={confluence} />
+                                </div>
+                            </div>
+                        </div>
+                        <div className=''>
+                            <img className='' src={imgCarrot1} />
                         </div>
                     </div>
-                    <div className=''>
-                        <img className='' src={imgCarrot1} />
-                    </div>
                 </div>
-
             </section>
 
-            <section className='has-text-centered home'>
-                <div className=''>
-                    <img className='shadow' src={imgCarrot2} />
+            <section className='hero is-fullheight-with-navbar is-relative' id="mockup">
+                <div className='hero-body is-align-items-center'>
+                    <div className='has-text-centered'>
+                        <img className='mt-6 shadow' src={imgCarrot2} />
+                    </div>
                 </div>
             </section>
 
@@ -194,10 +198,10 @@ const CarrotProyect = () => {
                     <img className='shadow' src={imgCarrot3} />
                 </div>
             </section>
-             */}
-            <section className='has-text-centered'>
+             
+            {/* <section className='has-text-centered'>
             <img className='has-text-centered' src={carrotCompleto} style={{maxWidth: '1280'}} />
-            </section>
+            </section> */}
 
         </>
     )
