@@ -11,6 +11,7 @@ import SociosArrenda from './pages/portafolio/SociosArrenda'
 import CarrotProyect from './pages/portafolio/CarrotProyect'
 import Inpersona from './pages/portafolio/Inpersona'
 import AdelantaApp from './pages/portafolio/AdelantaApp'
+import Kyc from './pages/portafolio/Kyc'
 
 import ScrollToTop from './pages/ScrollToTop'
 
@@ -31,6 +32,7 @@ function App() {
             <Route path='/carrot' element={<CarrotProyect />} />
             <Route path='/inpersona' element={<Inpersona />} />
             <Route path='/sociosA' element= {<SociosArrenda />} />
+            <Route path='/kyc' element = {<Kyc />} />
             <Route path='/adelantaA' element = {<AdelantaApp />} />
 
           </Routes>
