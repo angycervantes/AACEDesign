@@ -19,7 +19,7 @@ import definirA from '../../assets/img_portafolio/Carrot/secciones/definirA.svg'
 const CarrotProyect = () => {
     return (
         <>
-            <section className='main with-rombo hero is-fullwidth-with-navbar'>
+            {/* <section className='main with-rombo hero is-fullwidth-with-navbar'>
                 <div className='hero-body'>
                     <div className='columns is-gapless is-vcentered'>
                         <div className='column is-two-fifths has-text-justified container'>
@@ -197,11 +197,11 @@ const CarrotProyect = () => {
                 <div className=''>
                     <img className='shadow' src={imgCarrot3} />
                 </div>
-            </section>
-             
-            {/* <section className='has-text-centered'>
-            <img className='has-text-centered' src={carrotCompleto} style={{maxWidth: '1280'}} />
             </section> */}
+             
+            <section className='has-text-centered'>
+            <img className='has-text-centered' src={carrotCompleto} style={{maxWidth: '1280'}} />
+            </section>
 
         </>
     )
