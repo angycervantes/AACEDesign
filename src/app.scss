@@ -24,83 +24,117 @@ html {
   position: sticky;
   top: 0;
 }
+
 .main {
-    .main-content{
-        @include desktop{
-            margin-left: 3rem;
-        }
-        @include touch{
-            margin-left:0;
-        }
+  .main-content {
+    @include desktop {
+      margin-left: 3rem;
     }
-    &.with-rombo{
-        @include desktop{
-            .hero-body{
-                z-index: 1;
-            }
-            position: relative;
-            &::before{
-                overflow-x: hidden;
-                content:"";
-                display: flex;
-                width: 120vh;
-                height: 120vh;
-                transform: rotate(45deg);
-                background-color: #F0F1F2;
-                flex-shrink: 0;
-                border-radius: 62px;
-                position: absolute;
-                top: calc(-25vh + 100px);
-                left: calc(-50vh + 7.5rem);
-            }
-        }
-        @include touch{
-            background-color: #F0F1F2;
-        }
+
+    @include touch {
+      margin-left: 0;
     }
+  }
+
+  &.with-rombo {
+    @include desktop {
+      .hero-body {
+        z-index: 1;
+
+      }
+
+      position: relative;
+
+      &::before {
+        // overflow-x: hidden;
+        content: "";
+        display: flex;
+        width: 120vh;
+        height: 120vh;
+        transform: rotate(45deg);
+        background-color: #F0F1F2;
+        flex-shrink: 0;
+        border-radius: 62px;
+        position: absolute;
+        top: calc(-25vh + 100px);
+        // left: calc(-50vh + 7.5rem);
+        right: calc(90vh + 7.5rem);
+      }
+    }
+
+    @include touch {
+      background-color: #F0F1F2;
+    }
+  }
 }
 
-#mockup{
-    @include mobile{
-        height: auto!important;
-        min-height: auto !important;
+.card-content {
+  .content {
+    @include desktop {
+      margin-left: 0;
     }
+
+    @include touch {
+      text-align: center;
+    }
+
+  }
+
+  .container {
+    @include desktop {
+      margin-left: 0;
+      gap: 7rem;
+    }
+
+    @include mobile {
+      margin: 70px;
+    }
+
+  }
+
 }
 
-.hommie{
+#mockup {
+  @include mobile {
+    height: auto !important;
+    min-height: auto !important;
+  }
+}
+
+.hommie {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.child{
+
+.child {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
 }
 
-       
 .shadow {
   box-shadow: 5px 5px 5px rgba(124, 136, 145, 0.12);
   border-radius: 12px;
 }
 
-.rombo3 { 
-    display: flex;
-    width: 1166.858px;
-    height: 1112.473px;
-    transform: rotate(-51.76deg);
-    background-color: #F0F1F2;
-    flex-shrink: 0;
-    border-radius: 62px;
-    position: absolute;
-    top: -100px;
-    left: -250px;
-  
+.rombo3 {
+  display: flex;
+  width: 1166.858px;
+  height: 1112.473px;
+  transform: rotate(-51.76deg);
+  background-color: #F0F1F2;
+  flex-shrink: 0;
+  border-radius: 62px;
+  position: absolute;
+  top: -100px;
+  left: -250px;
+
 }
 
 
-.rombo4 { 
+.rombo4 {
   display: flex;
   width: 1166.858px;
   height: 1112.473px;
@@ -130,8 +164,9 @@ background-image {
 }
 
 .loquetuquieras {
- z-index: 2;
+  z-index: 2;
 }
+
 .atras {
   z-index: -1;
 }
@@ -145,11 +180,12 @@ background-image {
 }
 
 @keyframes show {
-  from{
+  from {
     opacity: 0;
     scale: 25%;
   }
-  to{
+
+  to {
     opacity: 1;
     scale: 100%;
   }
@@ -185,13 +221,13 @@ background-image {
   align-self: stretch;
 
   border-radius: 12px;
- background: #F7F7F8;
+  background: #F7F7F8;
 }
 
 .containerBox2 {
   display: flex;
-width: 1186px;
-justify-content: center;
-align-items: center;
-gap: 24px;
+  width: 1186px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }

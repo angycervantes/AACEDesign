@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;1,100;1,300;1,600&family=Plus+Jakarta+Sans:wght@500&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+//*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;1,100;1,300;1,600&family=Plus+Jakarta+Sans:wght@500&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');*//
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +11,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  height: 100vh;
+  height: 200vh;
   color: #323E48;
 }
 
@@ -21,47 +23,49 @@ html {
   position: sticky;
   top: 0;
 }
-.home{
+
+.home {
   display: grid;
   height: 100vh;
   place-content: centered;
   align-items: center;
 }
 
-.hommie{
+.hommie {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.child{
+
+.child {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
 }
 
-       
+
 .shadow {
   box-shadow: 5px 5px 5px rgba(124, 136, 145, 0.12);
   border-radius: 12px;
 }
 
-.rombo3 { 
-    display: flex;
-    width: 1166.858px;
-    height: 1112.473px;
-    transform: rotate(-51.76deg);
-    background-color: #F0F1F2;
-    flex-shrink: 0;
-    border-radius: 62px;
-    position: absolute;
-    top: -100px;
-    left: -250px;
-  
+.rombo3 {
+  display: flex;
+  width: 1166.858px;
+  height: 1112.473px;
+  transform: rotate(-51.76deg);
+  background-color: #F0F1F2;
+  flex-shrink: 0;
+  border-radius: 62px;
+  position: absolute;
+  top: -100px;
+  left: -250px;
+
 }
 
 
-.rombo4 { 
+.rombo4 {
   display: flex;
   width: 1166.858px;
   height: 1112.473px;
@@ -91,8 +95,9 @@ background-image {
 }
 
 .loquetuquieras {
- z-index: 2;
+  z-index: 2;
 }
+
 .atras {
   z-index: -1;
 }
@@ -106,11 +111,12 @@ background-image {
 }
 
 @keyframes show {
-  from{
+  from {
     opacity: 0;
     scale: 25%;
   }
-  to{
+
+  to {
     opacity: 1;
     scale: 100%;
   }
@@ -145,14 +151,13 @@ background-image {
   flex: 1 0 0;
   align-self: stretch;
 
-  border-radius: 12px;
- background: #F7F7F8;
 }
+
 
 .containerBox2 {
   display: flex;
-width: 1186px;
-justify-content: center;
-align-items: center;
-gap: 24px;
+  width: 1186px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }

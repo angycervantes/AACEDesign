@@ -14,6 +14,7 @@ import AdelantaApp from './pages/portafolio/AdelantaApp'
 import Kyc from './pages/portafolio/Kyc'
 
 import ScrollToTop from './pages/ScrollToTop'
+import Tagtolls from './pages/portafolio/Tagtolls'
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <Route path='/sociosA' element= {<SociosArrenda />} />
             <Route path='/kyc' element = {<Kyc />} />
             <Route path='/adelantaA' element = {<AdelantaApp />} />
+            <Route path='/tagTolls' element = {<Tagtolls />} />
 
           </Routes>
         </div>
