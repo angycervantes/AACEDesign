@@ -4,6 +4,7 @@ import sociosPreview from '../assets/img_portafolio/Previews/preview_2.png'
 import carrotPreview from '../assets/img_portafolio/Previews/preview_3.png'
 import preview4 from '../assets/img_portafolio/Previews/preview_4.png'
 import preview6 from '../assets/img_portafolio/Previews/preview_6.png'
+import preview7 from '../assets/img_portafolio/Previews/preview_7.png'
 import { Link } from 'react-router-dom';
 
 const Portafolio = () => {
@@ -48,8 +49,8 @@ const Portafolio = () => {
 
       <div className="columns  px-6 mb-6">
         <div className="column"></div>
+        <Link to='/tagTolls' className='column is-two-fifths imgA'><img className='shadow' src={preview7} /></Link>
         <div className="column"></div>
-        <Link to='/tagTolls' className='column is-two-fifths imgA'><img className='shadow' src={preview6} /></Link>
         <div className="column"></div>
       </div>
     </section>
