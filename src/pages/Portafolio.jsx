@@ -45,6 +45,13 @@ const Portafolio = () => {
         <Link to='/adelantaA' className='column is-two-fifths imgA'><img className='shadow' src={preview6} /></Link>
         <div className="column"></div>
       </div>
+
+      <div className="columns  px-6 mb-6">
+        <div className="column"></div>
+        <div className="column"></div>
+        <Link to='/tagTolls' className='column is-two-fifths imgA'><img className='shadow' src={preview6} /></Link>
+        <div className="column"></div>
+      </div>
     </section>
   )
 }
