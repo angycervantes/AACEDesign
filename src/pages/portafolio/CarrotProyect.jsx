@@ -101,8 +101,14 @@ const CarrotProyect = () => {
                                     <div className="content">
                                         <img className='' src={foco} />
                                         <h4> PROBLEMATICA</h4>
-                                        <p> Nuestro Admin dashboard es complicado de utilizar y tiene deficiencias de información que los usuarios funcionales ocupan en su día.
-                                            Al momento de su diseño inicial, sólo se tenía contemplado un tipo de usuario, sin embargo, las necesidades operativas van mucho más allá.</p>
+                                        <p> El actual Dashboard es complicado de utilizar y los usuarios se ayudan de otras herramientas, por lo que <strong>no hay certeza de que:</strong>
+                                            <ul>
+                                                <li>los usuarios esten consultando la misma información.</li>
+                                                <li>la información sea la más actualizada.</li>
+                                                <li>los usuarios tengan acceso a todo el expediente.</li>
+                                                
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -113,12 +119,16 @@ const CarrotProyect = () => {
                                     <div className="content">
                                         <img className='' src={foco} />
                                         <h4> OBJETIVOS</h4>
-                                        <p> Centralizar información relevante de cada expediente de cada usuario registrado
-                                            Visibilidad del avance en el producto / funnel
-                                            Proporcionar estatus más claros
-                                            Visibilidad de Base de datos (qué hay, de manera human readable)
-                                            Manejo de aprobaciones y acciones de aprobación
-                                            Reportes de LINQ</p>
+                                        <p> 
+                                            <ul>
+                                                <li>Centralizar información relevante de cada expediente de cada cliente registrado. </li>
+                                                <li>Visibilidad del avance en el producto / funnel. </li>
+                                                <li>Proporcionar estatus más claros. </li>
+                                                <li>Visibilidad de Base de datos. </li>
+                                                <li>Manejo de aprobaciones y acciones de aprobación. </li>
+                                                <li>Generar reportes de LINQ. </li>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -129,10 +139,16 @@ const CarrotProyect = () => {
                                     <div className="content">
                                         <img className='' src={foco} />
                                         <h4> SOLUCIÓN</h4>
-                                        <p> Un sistema que centralice los datos
-                                            de los clientes y facilite varias etapas de análisis de riesgos:
-                                            registro de usuarios, KYC, revisión de documentos, análisis de crédito,
-                                            aprobación, firma de contratos y desembolso.</p>
+                                        <p> Un sistema que centralice los datos y facilite la creación y revisión de las etapas de análisis de riesgos:
+                                            <ul>
+                                                <li>registro de usuarios</li> 
+                                                <li>KYC</li> 
+                                                <li>revisión de documentos</li> 
+                                                <li>análisis de crédito</li> 
+                                                <li>aprobación</li> 
+                                                <li>firma de contratos</li> 
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +166,7 @@ const CarrotProyect = () => {
                                 <p className='is-uppercase is-size-4-desktop has-text-grey'> empatizar</p>
                                 <img className='my-3' src={empatizar} />
                                 <p className='is-size-5-desktop'> Identificar los tipos de usuarios del Admin Dashboard, motivaciones, necesidades principales y pain points.</p>
-                                <p className='has-text-weight-bold is-size-5-desktop'>Workshops / Entrevistas / Research </p>
+                                <p className='has-text-weight-bold is-size-5-desktop'>  Entrevistas / Shadowing / Research  </p>
                             </div>
                         </div></div>
                     <div className='columns mt-5 is-3 is-variable mx-4'>
