@@ -330,7 +330,7 @@ const CarrotProyect = () => {
                             </div>
                         </div>
                         <div className='columns'>
-                            <div className='column is-8 is-offset-2'>
+                            <div className='column is-12'>
                                 <img className='' src={prototipoImg} />
                             </div>
 
