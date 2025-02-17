@@ -21,6 +21,8 @@ import designSystem from '../../assets/img_portafolio/Carrot/secciones/designSys
 
 import definirCarrot from '../../assets/img_portafolio/Carrot/CarrotDefinir.png'
 import idearImg from '../../assets/img_portafolio/Carrot/secciones/idearImg.png'
+import underwriting from '../../assets/img_portafolio/Carrot/secciones/underwriting.png'
+import customerJ from '../../assets/img_portafolio/Carrot/secciones/customerJ.png'
 import prototipoImg from '../../assets/img_portafolio/Carrot/secciones/prototiparImg.png'
 import test1 from '../../assets/img_portafolio/Carrot/secciones/test_1.png'
 import test2 from '../../assets/img_portafolio/Carrot/secciones/test_2.png'
@@ -250,7 +252,7 @@ const CarrotProyect = () => {
                     <div className='has-text-centered is-vcentered'>
                         <div className='columns'>
                             <div className='column is-8 is-offset-2'>
-                                
+                                <img className='my-3' src={underwriting} />
                                 <p className='is-size-5-desktop'> Durante la inmersión contextual, se obtuvo una comprensión
                                  más profunda del flujo de trabajo de estos equipos y de sus puntos de contacto en el proceso 
                                  de evaluación de riesgos, una de las necesidades clave del negocio.</p>  
@@ -269,47 +271,87 @@ const CarrotProyect = () => {
 
                         <p className='is-uppercase is-size-4-desktop has-text-grey'> Definir </p>
                         <img className='my-3' src={definirA} />
+                        <div className='container'>
+                    <div className='has-text-centered is-vcentered'>
                         <div className='columns'>
-                            <div className='column is-half'>
-                                <img className='' src={definirCarrot} />
+                            <div className='column is-8 is-offset-2'>
+                                
+                                <p className='is-size-5-desktop has-text-justified'> El Admin System actual es complejo de usar, 
+                                lo que lleva a los usuarios a recurrir a otras herramientas poco seguras para 
+                                compartir o almacenar información de los expedientes. Esto genera varios problemas:
+                                    
+                                        <ul className='has-text-justified '>
+                                            <li>No hay certeza de que todos los usuarios consulten la misma información.</li>
+                                            <li>Es difícil garantizar que la información esté actualizada.</li>
+                                            <li>No se asegura el acceso completo al expediente para todos los usuarios.</li>
+                                        </ul>
+                                    
+                                     Como resultado, los tiempos y costos del proceso se incrementan.</p>  
+                                     <br></br>
+                                <img className='my-3' src={customerJ} />
                             </div>
-                            <div className='column is-half m-6 p-6'>
-
-                                <p className='has-text-justified is-size-5-desktop'>
-                                    De acuerdo a los hallazgos, hemos definido las características más relevantes y las pantallas necesarias para visualizar la información que se debe destacar. Además, hemos buscado entender cómo se ajusta Carrot a las tareas de distintos usuarios funcionales y qué tan complicado es que realicen con éxito las tareas básicas, que son principalmente las más importantes.
-
-                                    Búsquedas de información de adelantos e usuarios.
-                                    Visualización de estadísticas.
-                                    Filtrado y ordenamiento de datos.
-                                    Edición y revisión de un expediente.
-
-                                    Descubrir que otras funcionalidades les facilitarían el análisis para el underwriting.
-                                    Creemos que la info en carrot no es la más actual
-                                    Ocupan más otras herramientas para guardar todo el expediente
-                                    Carrot no se ocupa para el deal committee pues le faltan los expedientes actualizados.</p>
-
-                            </div>
-
                         </div>
+                    </div>
+                    </div>
+                        
+                        
                     </div>
 
                 </div>
             </section>
-
+        
             <section className='py-6'>
+            <div className='container'>
+
+<div className='has-text-centered is-vcentered'>
+
+    <p className='is-uppercase is-size-4-desktop has-text-grey'> Idear </p>
+    <img className='my-3' src={idear} />
+    <div className='columns'>
+        <div className='column is-half'>
+            <img className='' src={definirCarrot} />
+        </div>
+        <div className='column is-half m-6 p-4'>
+
+            <p className='is-size-5 has-text-justified'> Con base en estos hallazgos, hemos definido 
+                las características clave y las pantallas necesarias para destacar 
+                la información relevante. Utilizamos un card sorting cerrado para desarrollar 
+                el site map, con el objetivo de:
+                <ul>
+                    <li>Centralizar la información y los documentos de los expedientes de cada usuario registrado.</li>
+                    <li>Mejorar la visibilidad del avance en el producto o funnel.</li>
+                    <li>Proporcionar estatus más claros.</li>
+                    <li>Visualizar la información directamente desde la base de datos.</li>
+                    <li>Editar y revisar expedientes de manera eficiente.</li>
+                    <li>Gestionar aprobaciones y acciones relacionadas.</li>
+                    <li>Generar reportes de LINQ de manera sencilla.</li>
+                </ul>
+            </p>
+
+        </div>
+
+    </div>
+</div>
+
+</div>
+<br></br>
+<br></br>
+<br></br>
                 <div className=' container'>
                     <div className='has-text-centered is-vcentered'>
                         <div className='columns'>
                             <div className='column is-8 is-offset-2'>
-                                <p className='is-uppercase is-size-4-desktop has-text-grey'> idear</p>
-                                <img className='my-3' src={idear} />
-                                <p className='is-size-5'> Se elaboraron los wireframes para el proceso de solicitud de Adelanto,
-                                    considerando diferentes casos, como la presencia de personas morales,
-                                    lo que requirió formularios más extensos para garantizar la presentación
-                                    de la información necesaria.</p>
+                            
+                                <p className='is-size-5 has-text-justified'>Se elaboraron los wireframes 
+                                del proceso de solicitud de Adelanto  apartir del site map considerando 
+                                los diferentes escenarios como la presencia de personas morales, lo que 
+                                requirió formularios más extensos para garantizar la presentación de 
+                                la información necesaria.
+                                </p>
                             </div>
                         </div>
                     </div>
+                    <br></br><br></br><br></br>
                     <div className='mt-5 is-3 is-variable mx-6'>
                         <img className='' src={idearImg} />
                     </div>
@@ -324,9 +366,11 @@ const CarrotProyect = () => {
                             <div className='column is-8 is-offset-2'>
                                 <p className='is-uppercase is-size-4-desktop has-text-grey'> Prototipar </p>
                                 <img className='my-3' src={prototipar} />
+                                <br></br>
                                 <p className='is-size-5-desktop'> Se creó un prototipo del flujo de las tareas principales en Figma, utilizando el Design System de la marca, con el objetivo de ponerlo a prueba con los usuarios </p>
                             </div>
                         </div>
+                        <br></br><br></br>
                         <div className='columns'>
                             <div className='column is-12'>
                                 <img className='' src={prototipoImg} />
@@ -343,11 +387,18 @@ const CarrotProyect = () => {
 
                     <div className='has-text-centered is-vcentered'>
                         <div className='columns'>
-                            <div className='column is-8 is-offset-2'>
+                            <div className='column is-10 is-offset-1'>
                                 <p className='is-uppercase is-size-4-desktop has-text-grey'> Probar </p>
                                 <img className='my-3' src={test} />
-                                <p className='is-size-5-desktop'> El proceso de mejora incluye la evaluación de las experiencias de usuarios y necesidades, así como la prueba de un nuevo prototipo de calificación de documentos.
-                                    Medimos el éxito mediante un puntaje mínimo de 70 en el System Usability Scale (SUS) y recopilamos retroalimentación cualitativa de usuarios funcionales para garantizar mejoras alineadas con sus necesidades. </p>
+                                <p className='is-size-5-desktop has-text-justified'> El objetivo de la prueba fue evaluar cómo 
+                                se ajusta el nuevo Admin System a las tareas de los distintos usuarios funcionales. 
+                                Para ello, realizamos los siguientes preparativos:
+                                <ul className='has-bullets'>
+                                <li>Definimos los Jobs to be Done para cada tipo de usuario.</li>
+                                <li>Generamos o seleccionamos adelantos de prueba para el testeo.</li>
+                                <li>Elaboramos un guion para la prueba moderada y una agenda de tareas específica para cada usuario.</li>
+                                </ul>
+                                El éxito se midió mediante un puntaje mínimo de 70 en el System Usability Scale (SUS). Además, recopilamos retroalimentación cualitativa de los usuarios para asegurar mejoras alineadas con sus necesidades. </p>
                             </div>
                         </div>
                         <div className=''>

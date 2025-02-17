@@ -231,3 +231,21 @@ background-image {
   align-items: center;
   gap: 24px;
 }
+
+
+.has-bullets ul {
+  list-style: none; /* Quitamos los marcadores */
+  padding: 0; /* Quitamos el padding por defecto de la lista */
+  margin-left: 10px; /* Separamos la lista de la izquierda */
+  }
+  
+  ul li::before {
+    content: "\2022";  
+    color: rgb(0, 0, 0); 
+    display: inline-block; 
+    padding-right: 10px;
+    font-size: 45px;
+    line-height: 25px;
+    vertical-align: -6px;
+    width: 15px;
+    }
