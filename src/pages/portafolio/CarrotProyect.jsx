@@ -21,7 +21,6 @@ import designSystem from '../../assets/img_portafolio/Carrot/secciones/designSys
 
 import definirCarrot from '../../assets/img_portafolio/Carrot/CarrotDefinir.png'
 import idearImg from '../../assets/img_portafolio/Carrot/secciones/idearImg.png'
-import underwriting from '../../assets/img_portafolio/Carrot/secciones/underwriting.png'
 import customerJ from '../../assets/img_portafolio/Carrot/secciones/customerJ.png'
 import prototipoImg from '../../assets/img_portafolio/Carrot/secciones/prototiparImg.png'
 import test1 from '../../assets/img_portafolio/Carrot/secciones/test_1.png'
@@ -252,7 +251,7 @@ const CarrotProyect = () => {
                     <div className='has-text-centered is-vcentered'>
                         <div className='columns'>
                             <div className='column is-8 is-offset-2'>
-                                <img className='my-3' src={underwriting} />
+                                
                                 <p className='is-size-5-desktop'> Durante la inmersión contextual, se obtuvo una comprensión
                                  más profunda del flujo de trabajo de estos equipos y de sus puntos de contacto en el proceso 
                                  de evaluación de riesgos, una de las necesidades clave del negocio.</p>  
