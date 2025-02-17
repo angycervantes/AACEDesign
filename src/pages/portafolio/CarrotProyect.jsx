@@ -11,6 +11,7 @@ import jira from '../../assets/logoRef/jira.png'
 import confluence from '../../assets/logoRef/confluence.png'
 
 import e2e from '../../assets/img_portafolio/Carrot/secciones/e2e.svg'
+import underwriting from '../../assets/img_portafolio/Carrot/secciones/underwriting.png'
 import empatizar from '../../assets/img_portafolio/Carrot/secciones/empatizar.svg'
 import definirA from '../../assets/img_portafolio/Carrot/secciones/definirA.svg'
 import idear from '../../assets/img_portafolio/Carrot/secciones/idear.svg'
@@ -51,8 +52,8 @@ const CarrotProyect = () => {
                                 <p className='is-size-5-desktop has-text-weight-medium mt-4'>End to end Project Design Thinking</p>
                                 <p className='linea'> </p>
                                 <ul>
+                                    <li>Metodología Scrum</li>
                                     <li>User research</li>
-                                    <li>User Flow </li>
                                     <li>Wireframing</li>
                                     <li>Prototyping</li>
                                     <li>Atomic UI design</li>
@@ -90,7 +91,9 @@ const CarrotProyect = () => {
                             <div className='column is-8 is-offset-2'>
                                 <p className='is-uppercase is-size-4-desktop has-text-grey'> End to End Project </p>
                                 <img className='my-3' src={e2e} />
-                                <p className='is-size-5-desktop'> Iniciamos recabando la solicitud del stakeholder y creando una hipótesis de solución.</p>
+                                <p className='is-size-5-desktop'> Este proyecto fue trabajado para una Start up cuyo producto 
+                                financiero principal es brindar liquidez, mediante el adelanto de sus rentas, a propietarios 
+                                de inmuebles que cuenten con un contrato de arrendamiento vigente.</p>
                             </div>
                         </div>
                     </div>
@@ -101,8 +104,12 @@ const CarrotProyect = () => {
                                     <div className="content">
                                         <img className='' src={foco} />
                                         <h4> PROBLEMATICA</h4>
-                                        <p> Nuestro Admin dashboard es complicado de utilizar y tiene deficiencias de información que los usuarios funcionales ocupan en su día.
-                                            Al momento de su diseño inicial, sólo se tenía contemplado un tipo de usuario, sin embargo, las necesidades operativas van mucho más allá.</p>
+                                        <p> Nuestro Admin Dashboard presenta dificultades de uso 
+                                            y carece de información clave, lo que ralentiza el análisis 
+                                            de solicitudes. Como resultado, se recurre a otras herramientas 
+                                            que no son seguras o que incrementan los costos del proceso.
+                                        </p>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -113,12 +120,13 @@ const CarrotProyect = () => {
                                     <div className="content">
                                         <img className='' src={foco} />
                                         <h4> OBJETIVOS</h4>
-                                        <p> Centralizar información relevante de cada expediente de cada usuario registrado
-                                            Visibilidad del avance en el producto / funnel
-                                            Proporcionar estatus más claros
-                                            Visibilidad de Base de datos (qué hay, de manera human readable)
-                                            Manejo de aprobaciones y acciones de aprobación
-                                            Reportes de LINQ</p>
+                                        <p> 
+                                        Ahorrar tiempo y dinero al simplificar o automatizar 
+                                        las tareas de los distintos usuarios funcionales, 
+                                        optimizando el proceso de aprobación de un adelanto 
+                                        desde la creación de la solicitud hasta el desembolso.
+                                        </p>
+                                        <br></br>
                                     </div>
                                 </div>
                             </div>
@@ -129,10 +137,12 @@ const CarrotProyect = () => {
                                     <div className="content">
                                         <img className='' src={foco} />
                                         <h4> SOLUCIÓN</h4>
-                                        <p> Un sistema que centralice los datos
-                                            de los clientes y facilite varias etapas de análisis de riesgos:
-                                            registro de usuarios, KYC, revisión de documentos, análisis de crédito,
-                                            aprobación, firma de contratos y desembolso.</p>
+                                        <p> Optimizar el Admin System para facilitar 
+                                            las tareas de los distintos usuarios funcionales, 
+                                            permitiéndoles completarlas con éxito en menos tiempo. 
+                                            Además, se busca eliminar la necesidad de al menos tres herramientas 
+                                            adicionales, reduciendo la complejidad y los costos operativos.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -149,8 +159,9 @@ const CarrotProyect = () => {
                             <div className='column is-8 is-offset-2'>
                                 <p className='is-uppercase is-size-4-desktop has-text-grey'> empatizar</p>
                                 <img className='my-3' src={empatizar} />
-                                <p className='is-size-5-desktop'> Identificar los tipos de usuarios del Admin Dashboard, motivaciones, necesidades principales y pain points.</p>
-                                <p className='has-text-weight-bold is-size-5-desktop'>Workshops / Entrevistas / Research </p>
+                                <p className='is-size-5-desktop'>Identificar los tipos de usuarios del Admin Dashboard, 
+                                <br></br>motivaciones, tareas principales y touch points.</p>
+                                <p className='has-text-weight-bold is-size-5-desktop'>  Contextual Interview / Research / Interview </p>
                             </div>
                         </div></div>
                     <div className='columns mt-5 is-3 is-variable mx-4'>
@@ -169,6 +180,13 @@ const CarrotProyect = () => {
                                                 <li>Validar cuentas bancarias </li>
                                                 <li>Generar reportes de LINQ </li>
                                             </ol>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
                                         </p>
                                     </div>
                                 </div>
@@ -180,7 +198,7 @@ const CarrotProyect = () => {
                                     <div className="content">
                                         <img className='' src={perfil} />
                                         <h4> Sales Team</h4>
-                                        <p> Core Jobs
+                                        <p> Core Jobs:
                                             <ol>
                                                 <li>Seguimiento a clientes</li>
                                                 <li>Cierre de tratos</li>
@@ -189,6 +207,13 @@ const CarrotProyect = () => {
                                                 <li>Validar avance de los usuarios en el funnel</li>
                                                 <li>Validar avance de usuarios en la aplicación</li>
                                             </ol>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
                                         </p>
                                     </div>
                                 </div>
@@ -206,13 +231,37 @@ const CarrotProyect = () => {
                                                 <li>Llevar tracking de qué usuarios se ha notificado al inquilino</li>
                                                 <li>Notificar inquilinos manualmente </li>
                                             </ol>
+                                            Related Jobs:
+                                            <ol>
+                                                <li>Seguimiento a clientes</li>
+                                                <li>Cierre de tratos</li>
+                                                <li>Revisión documental de clientes</li>
+                                                <li>Obtener detalles de contrato u otra información cargada del usuario</li>
+                                                <li>Validar avance de los usuarios en el funnel</li>
+                                                <li>Validar avance de usuarios en la aplicación</li>
+                                            </ol>
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <hr></hr>
+                    <div className='container'>
+                    <div className='has-text-centered is-vcentered'>
+                        <div className='columns'>
+                            <div className='column is-8 is-offset-2'>
+                                
+                                <p className='is-size-5-desktop'> Durante la inmersión contextual, se obtuvo una comprensión
+                                 más profunda del flujo de trabajo de estos equipos y de sus puntos de contacto en el proceso 
+                                 de evaluación de riesgos, una de las necesidades clave del negocio.</p>  
+                            </div>
+                        </div>
+                    </div>
+                    <img className='my-3' src={underwriting} />
+                    </div>
+                    </div>
+                
             </section>
 
             <section className='py-6  has-background-white-bis'>
@@ -281,7 +330,7 @@ const CarrotProyect = () => {
                             </div>
                         </div>
                         <div className='columns'>
-                            <div className='column is-8 is-offset-2'>
+                            <div className='column is-12'>
                                 <img className='' src={prototipoImg} />
                             </div>
 
