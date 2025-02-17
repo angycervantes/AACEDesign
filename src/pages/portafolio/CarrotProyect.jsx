@@ -11,7 +11,7 @@ import jira from '../../assets/logoRef/jira.png'
 import confluence from '../../assets/logoRef/confluence.png'
 
 import e2e from '../../assets/img_portafolio/Carrot/secciones/e2e.svg'
-import underwriting from '../../assets/img_portafolio/Carrot/secciones/underwriting.png'
+import analisisdeRiesgo from '../../assets/img_portafolio/Carrot/secciones/underwriting.png'
 import empatizar from '../../assets/img_portafolio/Carrot/secciones/empatizar.svg'
 import definirA from '../../assets/img_portafolio/Carrot/secciones/definirA.svg'
 import idear from '../../assets/img_portafolio/Carrot/secciones/idear.svg'
@@ -258,7 +258,7 @@ const CarrotProyect = () => {
                             </div>
                         </div>
                     </div>
-                    <img className='my-3' src={underwriting} />
+                    <img className='my-3' src={analisisdeRiesgo} />
                     </div>
                     </div>
                 
